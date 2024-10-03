@@ -1,0 +1,9 @@
+#program to print different vowels present in a word
+
+a=input("enter a string:")
+s=set(a)
+b={'a','e','i','o','u'}
+
+c=s.intersection(b)
+
+print("vowels present in string:",c)
